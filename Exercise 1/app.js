@@ -37,6 +37,7 @@ app.post("/", function(req,res){
 
     const options = {
         method: "POST",
+        // old API key which is now disabled for privacy reasons
         auth: "enegrelli:ebbf6fcb6ad7385a18b88bd821fb1f1f-us13"
     }
 
